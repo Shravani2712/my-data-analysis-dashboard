@@ -40,7 +40,6 @@ customer-orders-analysis/
 │
 ├── data/                # Raw CSV datasets (orders, products, customers, order_items)
 ├── app.py               # Streamlit application with charts and dashboards
-├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
 
 🔍 Data Analysis Process
