@@ -1,97 +1,143 @@
-📊 Customer Orders Analysis | Data Analyst Portfolio Project
+📊 My Data Analysis Dashboard
 
-This Customer Orders Analysis project demonstrates end-to-end data analysis using Python, Streamlit, Pandas, Plotly, and CSV datasets.
-The project focuses on data cleaning, exploratory data analysis (EDA), data visualization, and business insights derived from customer orders and product data.
+An interactive Streamlit-based data analysis dashboard designed to explore, visualize, and compare datasets using real-world data.
+This project showcases end-to-end data analytics skills — from data cleaning and SQL analysis to interactive visual storytelling.
 
-📊 Business Problem & Objective
+🚀 Live Demo
 
-The objective of this project is to analyze customer order data to:
+👉 Streamlit App URL
+(https://my-data-analysis-dashboard-ejjqed5vnwkcjo65cnbnrm.streamlit.app/)
 
-Identify popular products and customer preferences
+📊 Dashboard Features
+📌 Key Performance Indicators (KPIs)
 
-Analyze order trends over time
+Total Records / Observations
 
-Compare product pricing and quantity sold
+Key Metrics (auto-formatted in K / M)
 
-Study monthly sales performance and high-demand periods
+Percentage-based Indicators
 
-Support data-driven decision making for business operations and sales strategy
+Summary Statistics (Mean, Max, Min)
 
-🧠 Skills & Tools Used (ATS Keywords)
+🔍 Interactive Filters
 
-Python (Pandas, NumPy, Plotly, Streamlit)
+Dataset-wise filtering
 
-Streamlit (Interactive web dashboards)
+Year / Date-based analysis
 
-CSV (Data storage and manipulation)
+Category / Region / Country-based selection
 
-Exploratory Data Analysis (EDA)
+📈 Visual Analytics
 
-Data Cleaning & Data Preprocessing
+📉 Line charts for trend analysis
 
-Data Visualization & Reporting
+📊 Bar charts for comparisons
 
-Business Intelligence (BI)
+🥧 Pie charts for distribution insights
 
-Interactive Dashboards
+🔥 Heatmaps for correlation analysis
+
+🌍 Maps for location-based insights (if applicable)
+
+📄 Data Tables
+
+Cleaned and processed datasets
+
+Filtered views based on user selection
+
+Summary tables for quick insights
+
+🛠️ Tech Stack
+
+Python
+
+Streamlit
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Plotly
+
+MySQL (for structured data & SQL analysis)
+
+Jupyter Notebook
 
 📂 Project Structure
-customer-orders-analysis/
+my-data-analysis-dashboard/
 │
-├── data/                # Raw CSV datasets (orders, products, customers, order_items)
-├── app.py               # Streamlit application with charts and dashboards
-└── README.md            # Project documentation
+├── app.py / app1.py           # Streamlit dashboard
+├── analysis.ipynb             # Jupyter Notebook (EDA & insights)
+├── sql_queries.sql            # SQL analysis queries
+├── data/                      # Dataset folder
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+└── sample_dashboard.pdf       # Dashboard preview
 
-🔍 Data Analysis Process
+📁 Datasets Used
 
-Data Collection – Imported customer orders and product datasets
+Public / real-world datasets
 
-Data Cleaning – Handled missing values, standardized formats, and removed duplicates
+CSV / Excel / SQL-based data sources
 
-Exploratory Data Analysis (EDA) – Identified trends, patterns, and outliers
+Structured for analytical and visualization purposes
 
-Data Visualization – Built interactive charts using Plotly
+(Datasets can be replaced or extended easily.)
 
-Dashboard Development – Developed a Streamlit app for visual exploration
+▶️ How to Run Locally
+1️⃣ Clone the repository
+git clone https://github.com/Shravani2712/my-data-analysis-dashboard.git
+cd my-data-analysis-dashboard
 
-Insights & Reporting – Generated actionable insights for product management and sales strategy
+2️⃣ Install dependencies
+pip install -r requirements.txt
 
-📈 Key Insights & Findings
+3️⃣ Run the Streamlit app
+streamlit run app.py
 
-Identified most popular products and high-demand categories
+4️⃣ Upload or connect datasets (via sidebar if enabled)
+🌐 Deployment
 
-Analyzed the relationship between order quantity and pricing
+Deployed using Streamlit Community Cloud
 
-Tracked monthly sales trends and peak order periods
+Connected directly to GitHub
 
-Observed customer ordering patterns and high-value customers
+Supports automatic redeployment on every commit
 
-Supported business decisions for inventory management and pricing strategies
+📌 SQL Integration
 
-🖥️ Dashboards & Files
-Tool	File	Description
-Streamlit	app.py	Interactive dashboard for order and product analysis
-CSV	orders.csv	Orders dataset
-CSV customer_data.csv Customers dataset
-CSV order_items.csv Order Items dataset
-CSV	products.csv	Product details dataset
-Python	app.py	Data cleaning, EDA, and visualization logic
+Database: data_analysis_dashboard
 
+SQL Usage Includes:
 
-You can view the interactive dashboard locally by running the Streamlit app:
+Aggregations & KPIs
 
-## 📸 Open Sample Dashboard
-http://localhost:8501/
+Group-by analysis
 
-Histogram of order counts, price distribution, and product analysis are visualized in the dashboard.
+Trend & comparison queries
 
-📌 Keywords for ATS Indexing
+Filtered dataset extraction
 
-Data Analyst, Python, Pandas, Plotly, Streamlit, CSV, Data Cleaning, Data Preprocessing, Exploratory Data Analysis, EDA, Business Intelligence, Data Visualization, Interactive Dashboards, Reporting, Data-Driven Decision Making
+🎯 Use Cases
 
----
+Academic Mini / Major Projects
 
-## 📬 Author
+Data Analytics Portfolio
 
-**Shravani Sachin Dhuri**
-*Data Analyst | SQL | Python | Excel | Tableau | Power BI*
+Streamlit Dashboard Demonstrations
+
+Interview-ready analytics project
+
+Business & public data insights
+
+👩‍💻 Author
+
+Shravani Dhuri
+Aspiring Data Analyst
+
+Skills:
+Python | SQL | Excel | Tableau | Power BI | Streamlit
